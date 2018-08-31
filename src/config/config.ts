@@ -1,4 +1,4 @@
 
 export const CONFIG = {
-    apiUrl: 'http://dora-service.herokuapp.com'
+    apiUrl: 'http://0.0.0.0:5000'
 }
