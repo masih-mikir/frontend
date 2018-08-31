@@ -78,7 +78,7 @@ export class Itinerary extends React.Component<InterfaceItineraryProps, {}> {
             >
                 <h3 className="vertical-timeline-element-title">{recreation.recreation_name}</h3>
                 <h4 className="vertical-timeline-element-subtitle">Rp. {recreation.recreation_price}</h4>
-                <img className="img-fluid" src={recreation.recreation_image} alt={recreation.recreation_name} />
+                {recreation.category === 'transport' ? null: <img className="img-fluid" src={recreation.recreation_image} alt={recreation.recreation_name} />}
                 <Popover
                     title={recreation.recreation_name}
                     content={recreation.recreation_description}
