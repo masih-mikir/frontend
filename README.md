@@ -7,4 +7,4 @@
 1. Edit src/config/config.ts with correct server API
 2. Run `npm i` in this root project
 3. Run `npm start`
-4. Access `localhost:3000`
+4. Access `localhost:3003`
